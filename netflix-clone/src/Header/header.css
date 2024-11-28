@@ -1,0 +1,27 @@
+.header-outer-container {
+  position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  background-color: red;
+}
+.header_container {
+ justify-content: space-between;
+ align-items: center;
+}
+.header_left ul {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+}
